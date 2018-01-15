@@ -1,1 +1,267 @@
-/* Los estilos de tu proyecto */
+css
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background: white;
+  border-color: white;
+}
+.container-fluid {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+/*Sección 1*/
+.section1 {
+   background-image: url("../assets/images/taxi.jpg");
+   background-position: bottom;
+   background-size: cover;
+   height: 125vh;/*Elimina el espacio en blanco que queda debajo y lo ajusta con la propia imagen*/
+   width: 100%;
+}
+.sect1-content {
+  margin-right: 0;
+}
+.section1-text { /*contenedor amarillo desk*/
+  background-color: #F7B617;
+  height: 380px;
+  margin-top: 180px;
+  padding: 50px;
+}
+.section1b-text { /*contenedor amarillo mob*/
+  background-color: #F7B617;
+  height: 280px;
+  margin-top: 180px;
+  padding: 50px;
+}
+.btn-1b {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+}
+.section1-title {
+  margin: 0;
+}
+.section1b-title {
+  padding-left: 120px;
+}
+.imagen-logo-blanco {
+  width: 15%;
+}
+.imagen-logo-blancob {
+  width: 30%;
+}
+.section2-cont1 {
+  margin-top: 30px;
+}
+.btn-1 {
+  font-size: 10px;
+}
+.section1-separation {
+  border-bottom: 1px solid white;
+  height: 25px;
+  margin-bottom: 50px;
+}
+/*Sección 2*/
+.section2 {
+  background-color: #F7B617;
+  height: 95vh;
+  width: 100%;
+}
+.section2-content {
+  border: 1px solid white;
+  margin-top: 50px;
+}
+.content2 {
+  margin-right: 0;
+}
+.content2b {
+  padding: 30px auto;
+}
+.content2b img {
+  margin: 0 auto;
+}
+.content2inter {
+  margin: 30px;
+  outline: 1px solid white;
+}
+.text3b {
+  padding-left: 45px;
+}
+.section2-txt {
+  margin-top: 30px;
+  padding-left: 39px;
+}
+/*Sección 3*/
+.section3 {
+  background-image: url("../assets/images/conduce.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 70vh;/*Elimina el espacio en blanco que queda debajo y lo ajusta con la propia imagen*/
+  width: 100%;
+}
+.section3-content {
+  background-color: black;
+  margin-right: 0;
+  opacity: .7;
+  padding: 100px;
+}
+.btn-3 {
+  background-color: #F7B617;
+}
+.map-mob {
+  margin-left: 20%;
+}
+.btn-3b {
+  background-color: white;
+  color: black;
+}
+/*Sección 4*/
+.section4{
+  background-color: #F7B617;
+  width: 100%;
+}
+.btn-4a {
+  margin-top: 20px;
+}
+.modal2-form1 {
+  margin:0;
+  padding: 0;
+  width: 82%;
+}
+.placeholder1::-webkit-input-placeholder {
+  color: white;
+}
+.section4-form-control {
+  background-color: #F7B617;
+  border-color: white;
+}
+.section3-row {
+  margin-top: 15px;
+}
+.content3 {
+  padding:100px;
+}
+.map {
+  margin-top: 20px;
+  padding: 50px;
+  padding-right: 0px;
+}
+/*footer*/
+footer {
+  background-color: #2B2B2B;
+  height: 70vh;/*Elimina el espacio en blanco que queda debajo y lo ajusta con la propia imagen*/
+  padding: 70px;
+  width: 100%;
+}
+i {
+  padding: 5px;
+}
+.logo-footer { /*Son las lineas de divición horizontal del footer*/
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+}
+.imagen-app-store {
+  padding-bottom: 10px;
+  padding-top: 180px;
+  width: 150%;
+}
+.imagen-google-play {
+  width: 150%;
+}
+.imagen-footerb {
+  margin-bottom: 30px;
+}
+.footer-copy {
+  display: inline-block;
+}
+.logos-footerb {
+  margin-bottom: 20px;
+}
+.footer-copyb {
+  border-top: 1px solid white;
+  padding-top: 20px;
+}
+/*Modal login*/
+.modal-content {
+  background-color:#08AC9D;
+}
+.modal1-header {
+  background-color: #027FEB;
+  width: 13%;
+}
+.fa-user-circle {
+  opacity: .1;
+}
+.modal1-body {
+  width: 200%;
+}
+.form-horizontal {
+  background-color: #F5F5F5;
+  margin-left: 25%;
+  padding: 30px;
+  width: 50%;
+}
+.fa-user, .fa-unlock-alt {
+  background-color: #EEEEEE;
+  padding: 10px;
+}
+.modal1-btn {
+  background-color: #F7B617;
+  color: white;
+  margin-left: 25%;
+}
+/*Modal register*/
+.modal-body-register{
+  background-color:#A9A9A9;
+  padding: 10%;
+}
+.modal-register-title {
+  background-color: black;
+  color: white;
+  margin-left:10%;
+  padding: 10px;
+  width: 80%;
+}
+.modal2-form-control {
+  background-color: #DDDDDD;
+}
+.modal2-btn {
+  background-color: #5BC0DE;
+  color: white;
+  width: 100%;
+}
+.modal2-form {
+  margin-left: 12%;
+}
+.modal2-forma {
+  margin-left: 12%;
+  width: 18%;
+}
+ /*Modal conductor*/
+ .modal3-text1 {
+   color: gray;
+ }
+ .modal3-text2 {
+   color: #6797A9;
+ }
+ .modal3-input {
+   width: 83%;
+ }
+
+/*Inicia media query*/
+/* Medium devices (desktops, 992px and up) */
+@media  (max-width: 768px) {
+.mob {
+  display:block;}
+.desk {
+  display: none;}
+}
+
+@media  (min-width: 768px) {
+.mob {
+  display:none;}
+.desk {
+  display: block;}
+}
